@@ -43,6 +43,7 @@ The data used for this analysis was collected by Sage Bionetworks through the [m
 ## Main Results
 
 - Analysis of Demographic Information
+
     |Method|Accuracy|Recall|
     |---|---|---|
     |logistic|0.91|0.68|
@@ -52,6 +53,7 @@ The data used for this analysis was collected by Sage Bionetworks through the [m
     |XGBoost|0.91|0.75|
     
 - Combining with Voice Features
+
     |Method|Accuracy|Recall|
     |---|---|---|
     |Baseline1-Demographics|0.891|0.786|
