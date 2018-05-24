@@ -46,11 +46,17 @@ The data used for this analysis was collected by Sage Bionetworks through the [m
 
     |Method|Accuracy|Recall|
     |---|---|---|
-    |logistic|0.91|0.68|
+    |Logistic|0.91|0.68|
     |SVM|0.91|0.64|
     |Naive Bayes|0.91|0.81|
     |Random Forest|0.92|0.74|
     |XGBoost|0.91|0.75|
+    
+    <p align="left">
+    <img width="460" src="https://github.com/xiaobw95/Parkinson_Classification_Based_on_Demographic_Information_and_Voice_Features/blob/master/src/R/importance.png">
+    </p>
+    
+    
     
 - Combining with Voice Features
 
@@ -60,6 +66,10 @@ The data used for this analysis was collected by Sage Bionetworks through the [m
     |Baseline2-Voice|0.719|0.476|
     |Regularized Logistic|0.893|0.787|
     |Hierarchical Regularized Logistic|0.901|0.863|
+    
+    <p align="left">
+    <img width="460" src="https://github.com/xiaobw95/Parkinson_Classification_Based_on_Demographic_Information_and_Voice_Features/blob/master/src/R/roc.png">
+    </p>
 
 
 ## Build
