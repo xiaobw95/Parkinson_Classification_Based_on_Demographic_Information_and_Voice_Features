@@ -42,5 +42,5 @@ The data used for this analysis was collected by Sage Bionetworks through the [m
 
 ## Build
 
-- R: Open `src/R/Analysis_of_demographics_information.Rmd` and knit the file.
-- Python: run `src/Python/parkinson.py`
+- `R`: Open `src/R/Analysis_of_demographics_information.Rmd` and knit the file.
+- `Python`: `python src/Python/parkinson.py`
