@@ -10,7 +10,7 @@ Also, I packed the combined data to a simple neural network (single hidden layer
 
 -   `doc`: Documents and analysis
 
-    -   `Analysis.pdf`: this is my main analysis.
+    -   `Parkinson-Classification-Based-on-Demographic-Information-and-Voice-Features.pdf`: this is my main analysis.
 
 -   `src`: Any R scripts (`.R`) and Python scripts (`.py`) used in the analysis.
 
@@ -64,5 +64,5 @@ The data used for this analysis was collected by Sage Bionetworks through the [m
 
 ## Build
 
-- R: Open `src/R/Analysis.Rmd` and knit the file.
+- R: Open `src/R/Parkinson-Classification-Based-on-Demographic-Information-and-Voice-Features.Rmd` and knit the file.
 - Python: run `src/Python/parkinson.py`
