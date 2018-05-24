@@ -40,6 +40,26 @@ Python requirements for this project:
 
 The data used for this analysis was collected by Sage Bionetworks through the [mPower research study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4776701/pdf/sdata201611.pdf). The voice activity in the application recorded the user’s voice making the sound ‘aaah’ for 10 seconds. The audio samples collected via the mobile application were converted into over 58,000 json files with the help of the pyAudioAnalysis library. I am only used demographic data and GeMAPS extracted features of the voices.
 
+## Main Results
+
+- Analysis of Demographic Information
+    |Method|Accuracy|Recall|
+    |---|---|---|
+    |logistic|0.91|0.68|
+    |SVM|0.91|0.64|
+    |Naive Bayes|0.91|0.81|
+    |Random Forest|0.92|0.74|
+    |XGBoost|0.91|0.75|
+    
+- Combining with Voice Features
+    |Method|Accuracy|Recall|
+    |---|---|---|
+    |Baseline1-Demographics|0.891|0.786|
+    |Baseline2-Voice|0.719|0.476|
+    |Regularized Logistic|0.893|0.787|
+    |Hierarchical Regularized Logistic|0.901|0.863|
+
+
 ## Build
 
 - R: Open `src/R/Analysis.Rmd` and knit the file.
