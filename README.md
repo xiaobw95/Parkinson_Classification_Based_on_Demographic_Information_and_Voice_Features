@@ -67,7 +67,9 @@ The data used for this analysis was collected by Sage Bionetworks through the [m
     |Regularized Logistic|0.893|0.787|
     |Hierarchical Regularized Logistic|0.901|0.863|
     
-    
+    <p align="left">
+    <img width="460" src="https://github.com/xiaobw95/Parkinson_Classification_Based_on_Demographic_Information_and_Voice_Features/blob/master/src/R/roc.png">
+    </p>
 
 
 ## Build
