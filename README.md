@@ -23,7 +23,7 @@ R packages for this project:
 
 ```r
 # List of the packages this project depends on
-packages <- c("mlbench","e1071","randomForest","xgboost","glmnet","party","effects")
+packages <- c("mlbench","e1071","randomForest","xgboost","glmnet","party","effects","ROCR")
 if(!require(packages)){
   install.packages(packages)
   require(packages)
