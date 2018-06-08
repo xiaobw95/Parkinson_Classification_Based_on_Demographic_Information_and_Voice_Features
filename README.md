@@ -12,7 +12,7 @@ Also, I packed the combined data to a simple neural network (single hidden layer
 
     -   `Parkinson-Classification-Based-on-Demographic-Information-and-Voice-Features.pdf`: this is my main analysis.
 
--   `src`: Any R scripts (`.R`), Python scripts (`.py`) and preprocessed dataset used in the analysis.
+-   `src`: Any R scripts (`.R`), Python scripts (`.py`) and preprocessed datasets used in the analysis.
 
 -   `data`: Raw data used in the analysis. Files in this directory should be treated as read only.
 
