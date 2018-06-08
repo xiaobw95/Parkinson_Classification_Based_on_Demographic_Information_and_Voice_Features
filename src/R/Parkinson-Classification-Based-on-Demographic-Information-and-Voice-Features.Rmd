@@ -21,7 +21,7 @@ Demographic dataset has 6627 records and about 84% are negative cases. I split t
 
 ```{r results='asis'}
 setwd("~/Parkinson_Classification_Based_on_Demographic_Information_and_Voice_Features")
-parkinson <- read.csv("./data/parkinson.csv")
+parkinson <- read.csv("./src/R/parkinson.csv")
 parkinson$brain<-as.factor(parkinson$brain)
 parkinson$edu<-as.factor(parkinson$edu)
 parkinson$emp<-as.factor(parkinson$emp)
