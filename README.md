@@ -2,7 +2,7 @@
 
 Using demographic information and GeMAPS extracted features of voice to classify a patient diagnosed with Parkinson’s disease. I started with demogrphics data (~80% negative cases), testing different classification methods (achieved ~90% accuracy), and then went on combining with voice features (~60% negative cases). Finally, I used a hierarchical regularized logistic regression and achieved 90% accuracy and 86% recall. 
 
-Also, I packed the combined data to a simple neural network (single hidden layer with some dropout, mini batch and scale adjustment), I set the estimated parameter of logistic regression with demographic data as initial weights and it turned out to be a tiny improvement (achieved ~90% accuracy and ~80% callback).
+Also, I packed the combined data to a simple neural network (single hidden layer with some dropout, mini batch and scale adjustment), I set the estimated parameter of logistic regression with demographic data as initial weights and it turned out to be a tiny improvement (achieved ~90% accuracy and ~80% recall).
 
 ## Organization
 
